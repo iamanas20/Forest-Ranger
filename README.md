@@ -1,9 +1,10 @@
 # Forest Ranger
-Forest Ranger an open source website project created to help you learn HTML, CSS, JS and external libraries and frameworks.
+Forest Ranger an open source website project created to help you learn HTML, CSS, JS, external libraries
+and frameworks.
 
 # Get  Started
-<i>Using Microsoft Visual Studio</i>
-To get started, just clone the repository and open it in Visual Studio, fetch and pull from the server, or make your changes and push to the server.
+<i>Using Microsoft Visual Studio</i>To get started, just clone the repository and open it in Visual Studio, 
+fetch and pull from the server, or make your changes and push to the server.
 
 <ul>
   <li>Successfully clone the repo to VS:
