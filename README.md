@@ -25,3 +25,15 @@ fetch and pull from the server, or make your changes and push to the server.
     </ol>
   </li>
 </ul>
+
+# Guidelines To Contribute
+
+<ol>
+	<li>Respect others, yet don’t take anything personally! We all make mistakes at some point. What’s important is to learn and improve, and to treat others how we’d like to be treated.</li>
+	<li>Acknowledge prior feedback: It’s frustrating to correct the same issue multiple times, so learn from earlier reviews and show reviewers that you respect and appreciate their advice.</li>
+	<li>Be clear: If you disagree with your reviewers’ suggestions, make that clear. If you plan to implement your reviewers’ suggestions, make that clear too.</li>
+	<li>Stay open-minded: Don’t try to “win the argument,” instead have a pragmatic conversation.</li>
+	<li>Limit code review discussion: If one or two comments back and forth doesn’t resolve a problem, it won’t be solved in code review. Instead, talk to the reviewer in person, on the phone, or via chat. Remember, it’s okay to agree to disagree.</li>
+	<li>Embrace change: If you don’t have a strong opinion, take the reviewer’s suggestions.</li>
+	<li>Make clear and compact commit messages: If you make some bolky and non-understandable commit messages, collaborators won't know what you mean, and won't be pointed to the changes that you made, plus the reviewers will have a pretty hard time figuring out exaclty who made what.</li>
+</ol>
