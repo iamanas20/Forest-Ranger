@@ -28,7 +28,7 @@ fetch and pull from the server, or make your changes and push to the server.
 
 # Guidelines To Contribute
 
-<ol>
+<ol type=A>
 	<li>Respect others, yet don’t take anything personally! We all make mistakes at some point. What’s important is to learn and improve, and to treat others how we’d like to be treated.</li>
 	<li>Acknowledge prior feedback: It’s frustrating to correct the same issue multiple times, so learn from earlier reviews and show reviewers that you respect and appreciate their advice.</li>
 	<li>Be clear: If you disagree with your reviewers’ suggestions, make that clear. If you plan to implement your reviewers’ suggestions, make that clear too.</li>
