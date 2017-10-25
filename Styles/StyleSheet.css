@@ -2,5 +2,16 @@
 {
     position: absolute;
     bottom: 0px;
-    padding-left: 2%;   
+    padding-left: 2%;
+}
+
+@font-face
+{
+    font-family: fontmidle;
+    src: url('Assets\\Boulevard Saint Denis.ttf');
+}
+
+#title
+{
+  font-family: fontmidle;
 }
