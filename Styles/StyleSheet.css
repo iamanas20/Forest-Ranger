@@ -1,6 +1,7 @@
 ﻿#footer
 {
     position: absolute;
+<<<<<<< HEAD
     bottom: 0px;
     padding-left: 2%;
 }
@@ -15,3 +16,12 @@
 {
   font-family: fontmidle;
 }
+=======
+    bottom: 2%;
+    padding-left: .5%;
+}
+
+#footer a{
+    margin-left: 20px;
+}
+>>>>>>> 8d9a8ea1258f509ad65c41775fadce6babd2b83c
