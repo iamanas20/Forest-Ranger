@@ -1,6 +1,10 @@
 ﻿#footer
 {
     position: absolute;
-    bottom: 0px;
-    padding-left: 2%;
+    bottom: 2%;
+    padding-left: .5%;
+}
+
+#footer a{
+    margin-left: 20px;
 }
