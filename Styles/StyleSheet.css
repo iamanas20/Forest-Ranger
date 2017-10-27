@@ -1,15 +1,31 @@
-﻿
-#footer
-{
-    position: absolute;
-    bottom: 0px;
-    padding-left: 2%;
-
+body {
+    background-image: url('Assets/background.jpg') center;
+    background-position-x: center;
+    background-position-y: center;
 }
 
-#head
-{
+#footer {
     position: absolute;
-    top :0px;
-    padding:1%;
+    bottom: 10px;
+    margin-left: 3%;
+    border-bottom: 1px solid white;
+}
+
+    #footer a {
+        font-size: 18px;
+        color: white;
+        font-family: 'Quicksand';
+    }
+
+    #footer #secondLink, #thirdLink {
+        margin-left: 20px;
+    }
+
+@font-face {
+    font-family: fontmidle;
+    src: url('Assets\\Boulevard Saint Denis.ttf');
+}
+
+#title {
+    font-family: fontmidle;
 }
