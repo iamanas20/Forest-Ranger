@@ -1,7 +1,8 @@
-body {
-    background-image: url('Assets/background.jpg') center;
+﻿body {
+    background-image: url('Assets/background.jpg') center center;
     background-position-x: center;
     background-position-y: center;
+    background-attachment: fixed;
 }
 
 #footer {
