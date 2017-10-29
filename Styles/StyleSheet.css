@@ -6,6 +6,22 @@
     background-attachment: fixed;
 }
 
+.header
+{
+  color: white;
+  font-family: 'Quicksand';
+}
+
+.title
+{
+  display: block;
+  text-align: -webkit-center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
 #footer {
     position: absolute;
     bottom: 20px;
@@ -13,12 +29,12 @@
     min-width: 500px;
     margin-left: 2%;
 }
-    #footer > div {
+#footer > div {
         border-bottom: 1px solid #efefef;
         float: left;
-    }
+}
 
-    #footer > div a {
+#footer > div a {
         text-decoration: none;
         font-size: 17px;
         color: #efefef;
@@ -27,13 +43,13 @@
         letter-spacing: 3px;
     }
 
-        #footer > div a :hover {
-            color: #b6b6b6;
-        }
+#footer > div a :hover {
+      color: #b6b6b6;
+}
 
-    #footer div > #secondLink, #thirdLink {
-        margin-left: 20px;
-    }
+#footer div > #secondLink, #thirdLink {
+    margin-left: 20px;
+}
 
 #footer #scrollingIcon {
     margin-top: -16px;
@@ -42,7 +58,7 @@
 
 @font-face {
     font-family: fontmidle;
-    src: url('Assets\\Boulevard Saint Denis.ttf');
+    src: url('BoulevardSaintDenis.woff');
 }
 
 #title {
@@ -50,7 +66,7 @@
 }
 
 
-/* Adaptive design */
 
+/* Adaptive design */
 @media only screen and (max-width: 600px) {
 }
