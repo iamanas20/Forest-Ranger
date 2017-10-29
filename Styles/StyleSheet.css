@@ -6,6 +6,22 @@
     background-attachment: fixed;
 }
 
+.header
+{
+  color: white;
+  font-family: 'Quicksand';
+}
+
+.title
+{
+  display: block;
+  text-align: -webkit-center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
 #footer {
     position: absolute;
     bottom: 20px;
@@ -49,15 +65,7 @@
     font-family: fontmidle;
 }
 
-.img
-{
-  display: block;
-  text-align: -webkit-center;
-  vertical-align: middle;
-  margin: auto;
-  margin-top: 10%;
 
-}
 
 /* Adaptive design */
 @media only screen and (max-width: 600px) {
