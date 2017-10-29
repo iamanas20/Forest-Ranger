@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 24px;
     width: 90%;
-    min-width: 500px;
+    /*min-width: 500px;*/
     margin-left: 2%;
 }
 
@@ -31,6 +31,7 @@
         border-bottom: 1px solid #efefef;
         float: left;
         text-align: left;
+        margin-bottom: -10px;
     }
 
         #footer > div a {
@@ -80,7 +81,7 @@
     #footer > div div {
         visibility: visible;
         position: relative;
-        margin-bottom: -10px;
+        margin-bottom: 1px;
     }
 
     #footer > div > a {
