@@ -49,15 +49,13 @@
     font-family: fontmidle;
 }
 
-img.img
+.img
 {
-  margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   display: table-cell;
-   vertical-align: middle;
-}
-/* Adaptive design */
+  display: block;
+  text-align: -webkit-center;
 
+}
+
+/* Adaptive design */
 @media only screen and (max-width: 600px) {
 }
