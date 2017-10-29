@@ -2,31 +2,71 @@
     background-image: url('Assets/background.jpg') center center;
     background-position-x: center;
     background-position-y: center;
+    /*This is what makes the background fully responsive*/
     background-attachment: fixed;
+}
+
+.header
+{
+  color: white;
+  font-family: 'Quicksand';
+}
+
+.title
+{
+  display: block;
+  text-align: -webkit-center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 10%;
+
 }
 
 #footer {
     position: absolute;
-    bottom: 10px;
-    margin-left: 3%;
-    border-bottom: 1px solid white;
+    bottom: 20px;
+    width: 90%;
+    min-width: 500px;
+    margin-left: 2%;
+}
+#footer > div {
+        border-bottom: 1px solid #efefef;
+        float: left;
 }
 
-    #footer a {
-        font-size: 18px;
-        color: white;
+#footer > div a {
+        text-decoration: none;
+        font-size: 17px;
+        color: #efefef;
         font-family: 'Quicksand';
+        font-weight: 100;
+        letter-spacing: 3px;
     }
 
-    #footer #secondLink, #thirdLink {
-        margin-left: 20px;
-    }
+#footer > div a :hover {
+      color: #b6b6b6;
+}
+
+#footer div > #secondLink, #thirdLink {
+    margin-left: 20px;
+}
+
+#footer #scrollingIcon {
+    margin-top: -16px;
+    margin-left: 22%;
+}
 
 @font-face {
     font-family: fontmidle;
-    src: url('Assets\\Boulevard Saint Denis.ttf');
+    src: url('BoulevardSaintDenis.woff');
 }
 
 #title {
     font-family: fontmidle;
+}
+
+
+
+/* Adaptive design */
+@media only screen and (max-width: 600px) {
 }
