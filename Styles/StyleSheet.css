@@ -53,6 +53,9 @@
 {
   display: block;
   text-align: -webkit-center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 10%;
 
 }
 
