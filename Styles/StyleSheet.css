@@ -13,12 +13,12 @@
     min-width: 500px;
     margin-left: 2%;
 }
-    #footer > div {
+#footer > div {
         border-bottom: 1px solid #efefef;
         float: left;
-    }
+}
 
-    #footer > div a {
+#footer > div a {
         text-decoration: none;
         font-size: 17px;
         color: #efefef;
@@ -27,13 +27,13 @@
         letter-spacing: 3px;
     }
 
-        #footer > div a :hover {
-            color: #b6b6b6;
-        }
+#footer > div a :hover {
+      color: #b6b6b6;
+}
 
-    #footer div > #secondLink, #thirdLink {
-        margin-left: 20px;
-    }
+#footer div > #secondLink, #thirdLink {
+    margin-left: 20px;
+}
 
 #footer #scrollingIcon {
     margin-top: -16px;
@@ -49,7 +49,14 @@
     font-family: fontmidle;
 }
 
-
+img.img
+{
+  margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+}
 /* Adaptive design */
 
 @media only screen and (max-width: 600px) {
