@@ -33,13 +33,14 @@
 
 }
 
-#scrollingIcon
+/*#scrollingIcon
 {
   display: block;
   text-align: center;
   vertical-align: middle;
   margin-top: 12%;
-}
+}*/
+
 #footer {
     position: absolute;
     bottom: 24px;
