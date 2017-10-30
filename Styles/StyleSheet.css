@@ -6,26 +6,42 @@
     background-attachment: fixed;
 }
 
-.header {
-    color: white;
-    font-family: 'Quicksand';
+.header
+{
+  color: white;
+  font-family: 'Quicksand';
 }
 
-.title {
-    display: block;
-    text-align: -webkit-center;
-    vertical-align: middle;
-    margin: auto;
-    margin-top: 10%;
+#menu{
+color: white;
+font-family: 'Quicksand';
 }
 
-#scrollingIcon
+/*#search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}*/
+
+
+.title
+{
+  display: block;
+  text-align: -webkit-center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+/*#scrollingIcon
 {
   display: block;
   text-align: center;
   vertical-align: middle;
   margin-top: 12%;
-}
+}*/
+
 #footer {
     position: absolute;
     bottom: 24px;
