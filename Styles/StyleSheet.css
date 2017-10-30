@@ -30,17 +30,17 @@ font-family: 'Quicksand';
   text-align: -webkit-center;
   vertical-align: middle;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
 
 }
 
-/*#scrollingIcon
+#scrollingIcon
 {
   display: block;
   text-align: center;
   vertical-align: middle;
-  margin-top: 12%;
-}*/
+  margin-top: 10%;
+}
 
 #footer {
     position: absolute;
