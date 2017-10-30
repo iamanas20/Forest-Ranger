@@ -6,21 +6,10 @@
     background-attachment: fixed;
 }
 
-#header {
-    position:relative;
-    /*border-style: solid;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-    font-family: 'Quicksand';
-    top : 35px;
-}
- 
-#logo{
-    position : absolute ;
-    top : 20px;
-    left : 8%;
+.header
+{
+  color: white;
+  font-family: 'Quicksand';
 }
 
 #menu{
@@ -44,51 +33,79 @@
 
 }
 
+#scrollingIcon
+{
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 12%;
+}
 #footer {
     position: absolute;
-    bottom: 20px;
+    bottom: 24px;
     width: 90%;
-    min-width: 500px;
+    /*min-width: 500px;*/
     margin-left: 2%;
 }
-#footer > div {
+
+    #footer > div {
         border-bottom: 1px solid #efefef;
         float: left;
-}
-
-#footer > div a {
-        text-decoration: none;
-        font-size: 17px;
-        color: #efefef;
-        font-family: 'Quicksand';
-        font-weight: 100;
-        letter-spacing: 3px;
+        text-align: left;
+        margin-bottom: -10px;
     }
 
-#footer > div a :hover {
-      color: #b6b6b6;
-}
+        #footer > div a {
+            text-decoration: none;
+            font-size: 17px;
+            color: #efefef;
+            font-family: 'Quicksand';
+            font-weight: 100;
+            letter-spacing: 3px;
+        }
 
-#footer div > #secondLink, #thirdLink {
-    margin-left: 20px;
-}
+            #footer > div a :hover {
+                color: #b6b6b6;
+            }
 
-#footer #scrollingIcon {
+    #footer div > #secondLink, #thirdLink {
+        margin-left: 20px;
+    }
+
+    /*#footer #scrollingIcon {
     margin-top: -16px;
     margin-left: 22%;
-}
+}*/
+
+    #footer > div div {
+        position: absolute;
+        visibility: collapse;
+    }
+
+        #footer > div div #imageLink {
+            margin-left: 20px;
+        }
 
 @font-face {
     font-family: fontmidle;
     src: url('BoulevardSaintDenis.woff');
 }
 
-#title {
-    font-family: fontmidle;
-}
-
-
 
 /* Adaptive design */
 @media only screen and (max-width: 600px) {
+
+    #footer div {
+        border-bottom: 0px;
+    }
+
+    #footer > div div {
+        visibility: visible;
+        position: relative;
+        margin-bottom: 1px;
+    }
+
+    #footer > div > a {
+        visibility: collapse;
+    }
 }
