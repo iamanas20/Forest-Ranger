@@ -6,11 +6,33 @@
     background-attachment: fixed;
 }
 
-.header
-{
-  color: white;
-  font-family: 'Quicksand';
+#header {
+    position:relative;
+    /*border-style: solid;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Quicksand';
+    top : 35px;
 }
+ 
+#logo{
+    position : absolute ;
+    top : 20px;
+    left : 8%;
+}
+
+#menu{
+    color : red;
+}
+
+/*#search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}*/
+
 
 .title
 {
