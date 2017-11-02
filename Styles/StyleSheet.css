@@ -78,6 +78,9 @@
     vertical-align: middle;
     bottom: 0px;
     margin-left: 80%;
+    -moz-animation-name: smallbounceanimation;
+    -o-animation-name: smallbounceanimation;
+    -webkit-animation-name: smallbounceanimation;
     animation-name: smallbounceanimation;
     animation-delay: 0s;
     animation-duration: 1.2s;
