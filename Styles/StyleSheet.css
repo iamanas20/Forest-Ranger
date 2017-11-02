@@ -5,7 +5,7 @@
     /*This is what makes the background fully responsive*/
     background-attachment: fixed;
 }
-
+/*The header of the page*/
 .header {
     color: white;
     font-family: 'Quicksand';
@@ -18,8 +18,12 @@
 
 #search {
     position: absolute;
-    float: right;
+    top: 20px;
+    right: 20px;
 }
+
+/*End of The header of the page*/
+
 
 
 .title {
