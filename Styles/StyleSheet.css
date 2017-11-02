@@ -11,8 +11,9 @@
     font-family: 'Quicksand';
 }
 
-#menu{
-    color : red;
+#menu {
+    color: white;
+    font-family: 'Quicksand';
 }
 
 #search {
@@ -25,23 +26,14 @@
 
 
 
-.title
-{
-  display: block;
-  text-align: -webkit-center;
-  vertical-align: middle;
-  margin: auto;
-  margin-top: 10%;
-
+.title {
+    display: block;
+    text-align: -webkit-center;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 5%;
 }
 
-#scrollingIcon
-{
-  display: block;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 12%;
-}
 #footer {
     position: absolute;
     bottom: 24px;
@@ -74,11 +66,6 @@
         margin-left: 20px;
     }
 
-    /*#footer #scrollingIcon {
-    margin-top: -16px;
-    margin-left: 22%;
-}*/
-
     #footer > div div {
         position: absolute;
         visibility: collapse;
@@ -88,13 +75,26 @@
             margin-left: 20px;
         }
 
+#scrollingIcon {
+    position: absolute;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0px;
+    margin-left: 80%;
+    animation-name: smallbounceanimation;
+    animation-delay: 0s;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
 @font-face {
     font-family: fontmidle;
     src: url('BoulevardSaintDenis.woff');
 }
 
 
-/* Adaptive design */
+/* Adaptive design triggers */
 @media only screen and (max-width: 600px) {
 
     #footer div {
@@ -104,10 +104,52 @@
     #footer > div div {
         visibility: visible;
         position: relative;
-        margin-bottom: 1px;
+        margin-bottom: 0px;
     }
 
     #footer > div > a {
         visibility: collapse;
+    }
+
+    .title{
+        margin-top: 85%;
+    }
+
+    #scrollingIcon{
+        margin-bottom: 10px;
+    }
+
+    #scrollingIcon img{
+        width: 20px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #scrollingIcon {
+        margin-left: 55%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        margin-top: 15%;
+    }
+}
+
+
+
+/* Animations */
+@keyframes smallbounceanimation {
+    0% {
+        bottom: 10px;
+    }
+
+    65% {
+        bottom: 30px;
+    }
+
+    100% {
+        bottom: 10px;
     }
 }
