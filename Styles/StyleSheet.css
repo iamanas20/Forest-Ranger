@@ -5,22 +5,24 @@
     /*This is what makes the background fully responsive*/
     background-attachment: fixed;
 }
-
-.header
-{
-  color: white;
-  font-family: 'Quicksand';
+/*The header of the page*/
+.header {
+    color: white;
+    font-family: 'Quicksand';
 }
 
 #menu{
     color : red;
 }
 
-/*#search {
+#search {
     position: absolute;
     top: 20px;
     right: 20px;
-}*/
+}
+
+/*End of The header of the page*/
+
 
 
 .title
