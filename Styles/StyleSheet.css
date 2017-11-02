@@ -43,7 +43,7 @@
 
 #footer {
     position: absolute;
-    bottom: 24px;
+    bottom: 25px;
     width: 90%;
     /*min-width: 500px;*/
     margin-left: 2%;
@@ -53,7 +53,7 @@
         border-bottom: 1px solid #efefef;
         float: left;
         text-align: left;
-        margin-bottom: -10px;
+        
     }
 
         #footer > div a {
@@ -89,6 +89,10 @@
     vertical-align: middle;
     bottom: 0px;
     margin-left: 80%;
+    margin-bottom: 10px;
+    -moz-animation-name: smallbounceanimation;
+    -o-animation-name: smallbounceanimation;
+    -webkit-animation-name: smallbounceanimation;
     animation-name: smallbounceanimation;
     animation-delay: 0s;
     animation-duration: 1.2s;
@@ -112,6 +116,11 @@
         visibility: visible;
         position: relative;
         margin-bottom: 0px;
+    }
+
+    #footer #imageLink img {
+        width: 30px;
+        height: 30px;
     }
 
     #footer > div > a {
