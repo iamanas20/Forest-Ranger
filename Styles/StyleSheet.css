@@ -16,11 +16,10 @@
     font-family: 'Quicksand';
 }
 
-/*#search {
+#search {
     position: absolute;
-    top: 20px;
-    right: 20px;
-}*/
+    float: right;
+}
 
 
 .title {
@@ -29,13 +28,6 @@
     vertical-align: middle;
     margin: auto;
     margin-top: 5%;
-}
-
-#scrollingIcon {
-    display: block;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 10%;
 }
 
 #footer {
@@ -81,7 +73,10 @@
 
 #scrollingIcon {
     position: absolute;
-    bottom: 10px;    
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0px;
     margin-left: 80%;
     animation-name: smallbounceanimation;
     animation-delay: 0s;
@@ -111,12 +106,30 @@
     #footer > div > a {
         visibility: collapse;
     }
+
+    .title{
+        margin-top: 85%;
+    }
+
+    #scrollingIcon{
+        margin-bottom: 10px;
+    }
+
+    #scrollingIcon img{
+        width: 20px;
+        height: 30px;
+    }
 }
 
-@media only screen and (min-width: 900px)
-{
+@media only screen and (min-width: 900px) {
     #scrollingIcon {
         margin-left: 55%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        margin-top: 15%;
     }
 }
 
@@ -127,9 +140,11 @@
     0% {
         bottom: 10px;
     }
+
     65% {
         bottom: 30px;
     }
+
     100% {
         bottom: 10px;
     }
