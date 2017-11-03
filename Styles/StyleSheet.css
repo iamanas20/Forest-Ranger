@@ -6,27 +6,38 @@
     background-attachment: fixed;
 }
 /*The header of the page*/
-.header {
-    color: white;
-    font-family: 'Quicksand';
+#header {
+    position: absolute;
+    top:20px;
+    width:99%;
 }
 
 #logo {
-
+    position: absolute;
+    left : 100px;
 }
 
 #menu {
-    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    color: #efefef;
     font-family: 'Quicksand';
-    position:absolute;
-    top :20px;
-    right:auto;
+    font-weight: 100;
+    letter-spacing: 3px;
+    /*top :40px;*/
+    float: right;
+    right: 20px;
+}
+#l2,#l3,#l4{
+    margin-left:20px;
 }
 
 #search {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    /*position: absolute;
+    top: 40px;
+    right: 20px;*/
+    float: right;
+    margin-left:50px;
 }
 
 /*End of The header of the page*/
