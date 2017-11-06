@@ -51,6 +51,20 @@
     margin: auto;
     margin-top: 20%;
 }
+#scrollingIcon {
+    position: absolute;
+    display: block;
+    text-align: -webkit-center;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    -moz-animation-name: smallbounceanimation;
+    -o-animation-name: smallbounceanimation;
+    -webkit-animation-name: smallbounceanimation;
+    animation-name: smallbounceanimation;
+    animation-delay: 0s;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
 
 #footer {
     position: absolute;
@@ -93,22 +107,6 @@
             margin-left: 20px;
         }
 
-#scrollingIcon {
-    position: absolute;
-    display: block;
-    text-align: -webkit-center;
-    vertical-align: middle;
-    bottom: 0px;
-    margin-left: 80%;
-    margin-bottom: 100px;
-    -moz-animation-name: smallbounceanimation;
-    -o-animation-name: smallbounceanimation;
-    -webkit-animation-name: smallbounceanimation;
-    animation-name: smallbounceanimation;
-    animation-delay: 0s;
-    animation-duration: 1.2s;
-    animation-iteration-count: infinite;
-}
 
 @font-face {
     font-family: fontmidle;
